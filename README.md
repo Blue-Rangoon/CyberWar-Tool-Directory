@@ -145,4 +145,135 @@ CyberWar Tool Directory
     └── Disclaimer
 ```
 
+🏠 Homepage Architecture
 
+```bash
+┌─────────────────────────────────────────────────────────┐
+│ NAVBAR                                                  │
+│                                                         │
+│ Logo | Tools | Roadmaps | Comparisons | Learning | ... │
+│                                      Search | Theme | ☰ │
+└─────────────────────────────────────────────────────────┘
+
+                         HERO
+
+             Cybersecurity Tools.
+             Commands. Knowledge.
+
+      Curated tools, commands, setup guides
+           and practical resources.
+
+        ┌─────────────────────────────────┐
+        │ 🔎 Search tools, commands...    │
+        └─────────────────────────────────┘
+
+
+                     QUICK STATS
+
+       ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐
+       │ 250+   │ │ 3000+  │ │ 50+    │ │ Open   │
+       │ Tools  │ │ Cmds   │ │ Topics │ │ Source │
+       └────────┘ └────────┘ └────────┘ └────────┘
+
+
+                 EXPLORE CATEGORIES
+
+ ┌─────────┐ ┌────────────┐ ┌────────────┐
+ │  OSINT  │ │ Pentesting │ │ Networking │
+ └─────────┘ └────────────┘ └────────────┘
+
+ ┌───────────┐ ┌──────────┐ ┌────────────┐
+ │ Forensics │ │ Wireless │ │ Cloud/etc. │
+ └───────────┘ └──────────┘ └────────────┘
+
+
+                   POPULAR TOOLS
+
+   Nmap   Burp   Wireshark   ffuf   Sherlock
+    │       │        │         │        │
+
+
+                  LEARNING PATHS
+
+ ┌──────────────┐ ┌──────────────┐
+ │ Beginner     │ │ OSINT        │
+ │ Fundamentals │ │ Investigator │
+ └──────────────┘ └──────────────┘
+
+ ┌──────────────┐ ┌──────────────┐
+ │ Web          │ │ Bug Bounty   │
+ │ Pentester    │ │              │
+ └──────────────┘ └──────────────┘
+
+
+                RECENTLY UPDATED
+
+      Nmap     Sherlock     Wireshark
+
+
+                       ↓
+
+                    FOOTER
+
+```
+
+
+🧰 Tools Architecture:
+- When someone clicks Tools
+
+```bash
+TOOLS
+ │
+ ├── Category navigation
+ │
+ ├── Search
+ │
+ ├── Filters
+ │    ├── Category
+ │    ├── Platform
+ │    ├── Difficulty
+ │    └── Purpose
+ │
+ └── Tool Cards
+```
+
+
+📄 Individual Tool Page
+
+This is the most important page template.
+
+```bash
+┌───────────────────────────────────────────────┐
+│ ← Tools / OSINT / Username                   │
+│                                               │
+│ 🔵 Sherlock                                  │
+│ Hunt down social media accounts by username   │
+│                                               │
+│ [GitHub] [Official] [Copy Link]               │
+│                                               │
+│ ✓ Verified     v0.x     Linux / Win / macOS  │
+└───────────────────────────────────────────────┘
+
+┌──────────────┐ ┌─────────────────────────────┐
+│ PAGE NAV     │ │ CONTENT                     │
+│              │ │                             │
+│ Overview     │ │ Overview                    │
+│ Installation │ │ What is Sherlock?           │
+│ Commands     │ │                             │
+│ Examples     │ │ Installation                │
+│ Use Cases    │ │ ─────────────               │
+│ Errors       │ │ Windows | Linux | macOS     │
+│ Alternatives │ │                             │
+│ References   │ │ Commands                    │
+│              │ │ ┌─────────────────────────┐ │
+│              │ │ │ command                 │ │
+│              │ │ │                    Copy │ │
+│              │ │ └─────────────────────────┘ │
+│              │ │                             │
+│              │ │ Example                     │
+│              │ │                             │
+│              │ │ Common Errors               │
+│              │ │                             │
+│              │ │ Related Tools               │
+└──────────────┘ └─────────────────────────────┘
+```
