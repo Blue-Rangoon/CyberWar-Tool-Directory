@@ -282,7 +282,7 @@ This is the most important page template.
 - Sidebar + content.
 
 #### Tablet
--Sidebar becomes collapsible.
+- Sidebar becomes collapsible.
 
 #### Mobile
 ```bash
