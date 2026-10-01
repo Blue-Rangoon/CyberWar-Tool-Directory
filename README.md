@@ -277,3 +277,210 @@ This is the most important page template.
 │              │ │ Related Tools               │
 └──────────────┘ └─────────────────────────────┘
 ```
+
+#### Desktop
+- Sidebar + content.
+
+#### Tablet
+-Sidebar becomes collapsible.
+
+#### Mobile
+```bash
+┌─────────────────────┐
+│ ☰  CyberWar    🔍  │
+├─────────────────────┤
+│ Sherlock            │
+│ Username OSINT      │
+│                     │
+│ [Overview]          │
+│ [Installation ▼]    │
+│ [Commands ▼]        │
+│                     │
+│ Content...          │
+└─────────────────────┘
+```
+
+## ⚔️ Comparison Page
+
+```bash
+                ffuf
+                  │
+                  VS
+                  │
+               Gobuster
+
+
+┌──────────────────────────────────────┐
+│ QUICK SUMMARY                         │
+└──────────────────────────────────────┘
+
+┌────────────┬──────────┬──────────────┐
+│ Feature    │ ffuf      │ Gobuster     │
+├────────────┼──────────┼──────────────┤
+│ Speed      │ ...      │ ...          │
+│ Fuzzing    │ ...      │ ...          │
+│ Recursion  │ ...      │ ...          │
+│ Difficulty │ ...      │ ...          │
+└────────────┴──────────┴──────────────┘
+
+
+WHEN TO USE
+
+┌──────────────────┐  ┌──────────────────┐
+│ ffuf             │  │ Gobuster         │
+│                  │  │                  │
+│ • ...            │  │ • ...            │
+│ • ...            │  │ • ...            │
+└──────────────────┘  └──────────────────┘
+
+
+EXAMPLE COMMANDS
+
+ffuf                           gobuster
+────────────                   ────────────
+command                        command
+
+
+RELATED TOOLS
+```
+
+
+## 🗺️ Roadmap Architecture
+And each node links to your own content:
+
+```bash
+ROADMAP STEP
+     │
+     ├── Concept
+     ├── Tools
+     ├── Commands
+     ├── Labs
+     └── Resources
+```
+
+```bash
+WEB PENTESTING
+│
+├── 01 Fundamentals
+│    ├── Networking
+│    ├── HTTP
+│    └── Linux
+│
+├── 02 Recon
+│    ├── Nmap
+│    ├── Subfinder
+│    └── Amass
+│
+├── 03 Enumeration
+│    ├── Gobuster
+│    ├── ffuf
+│    └── WhatWeb
+│
+├── 04 Vulnerability Discovery
+│    ├── Nuclei
+│    └── Burp Suite
+│
+├── 05 Web Vulnerabilities
+│    ├── XSS
+│    ├── SQLi
+│    └── Authentication
+│
+├── 06 Exploitation
+│
+└── 07 Reporting
+```
+
+## 🎨 Design System
+- Visual language: Dark + Technical but not "edgy hacker."
+
+```bash
+BACKGROUND
+│
+├── Main       #070B12
+├── Surface     #0C121C
+├── Card        #101925
+└── Elevated    #151F2D
+
+BORDERS
+│
+└── Subtle      #1D2A3A
+
+TEXT
+│
+├── Primary     #F1F5F9
+├── Secondary   #94A3B8
+└── Muted       #64748B
+
+ACCENTS
+│
+├── Primary     Cyan / Blue
+├── Success     Green
+├── Warning     Amber
+├── Danger      Red
+└── OSINT       Teal/Purple
+```
+
+## 📱 Responsive Architecture
+
+```bash
+                 DESKTOP
+            ┌───────────────┐
+            │ Full Navbar   │
+            ├───────┬───────┤
+            │ Side  │ Main  │
+            │ bar   │       │
+            └───────┴───────┘
+                    │
+                    ▼
+                  TABLET
+            ┌───────────────┐
+            │ Compact Nav   │
+            ├───────────────┤
+            │ Filters ▼     │
+            │               │
+            │ Main Content  │
+            └───────────────┘
+                    │
+                    ▼
+                  MOBILE
+            ┌───────────────┐
+            │ ☰ Logo    🔍 │
+            ├───────────────┤
+            │ Content       │
+            │               │
+            │ Cards →       │
+            │ 1 column      │
+            │               │
+            └───────────────┘
+```
+
+## 🧱 Actual visual hierarchy
+
+```bash
+                    CYBERWAR
+                       │
+              ┌────────┴────────┐
+              │                 │
+           DISCOVER           LEARN
+              │                 │
+       ┌──────┼──────┐          │
+       │      │      │          │
+     Tools Search Compare    Roadmaps
+       │                         │
+       ▼                         ▼
+   Tool Page                 Learning
+       │                         │
+       └──────────┬──────────────┘
+                  ▼
+             PRACTICE
+                  │
+               Labs / CTF
+                  │
+                  ▼
+             COMMUNITY
+                  │
+          ┌───────┼───────┐
+          ▼       ▼       ▼
+        Add     Verify   Update
+        Tool    Content  Content
+```
