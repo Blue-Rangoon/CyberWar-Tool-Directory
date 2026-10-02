@@ -1,8 +1,12 @@
 # CyberWar-Tool-Directory
-Open for Contribution
-⚠️ For Education purposes only!
+This repository is open for contributions from cybersecurity, OSINT, pentesting enthusiasts, and anyone who loves to contribute to open-source projects. 
 
-🧭 Overall Website Architecture
+⚠️Note: This website is for educational purposes only and does not promote or encourage malicious activity or serious intent to cause harm to any organization or individual's privacy and terms of service. This is not legal advice!
+
+
+
+
+## 🧭 Overall Website Architecture
 
 ```bash
                          CYBERWAR
