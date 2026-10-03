@@ -1,4 +1,4 @@
-# CyberWar-Tool-Directory
+# CyberAtlas-Tool-Directory
 This repository is open for contributions from cybersecurity, OSINT, pentesting enthusiasts, and anyone who loves to contribute to open-source projects. 
 
 ⚠️Note: This website is for educational purposes only and does not promote or encourage malicious activity or serious intent to cause harm to any organization or individual's privacy and terms of service. This is not legal advice!
